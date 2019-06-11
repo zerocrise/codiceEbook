@@ -1,0 +1,6 @@
+"use strict"
+let baseMinore=prompt("Inserisci la base minore",);
+let baseMaggiore=prompt("Inserisci la base maggiore",);
+let altezza=prompt("Inserisci l'altezza",);
+let area=(baseMaggiore+baseMinore)*altezza/2;
+console.log("l'area del treapezio è = ",area); 
